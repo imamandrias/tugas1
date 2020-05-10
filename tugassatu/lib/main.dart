@@ -65,7 +65,7 @@ class HalamanLogin extends StatelessWidget {
                 ),
                 onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context)=>HalamanRegister()))
-                ;},
+                ;}
                 //onPressed: (){Navigator.of(context).pushNamed(HalamanRegister.tag);},
               )
             ],
